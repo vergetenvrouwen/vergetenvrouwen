@@ -1,5 +1,8 @@
-### Hi there 👋
+### Hoi 👋
 
+vergetenvrouwen.github.io is een website waar leerkrachten didactische fiches rond klassieke vrouwelijk componisten kunnen downloaden. Dit materiaal ontstond als resultaat van onze bachelorproef rond dit onderwerp.
+
+Groeten, Arne en Thijs.
 <!--
 **vergetenvrouwen/vergetenvrouwen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
