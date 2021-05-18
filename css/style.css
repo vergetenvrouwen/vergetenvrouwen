@@ -25,9 +25,9 @@ ul li {
   text-align: center;
 }
 
-#pagina {
+#pagina a {
 	font-weight: bold;
-	text-decoration: underline;
+	border: 3px solid white;
 }
 
 #download {
