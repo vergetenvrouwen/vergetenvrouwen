@@ -5,6 +5,12 @@ body, html {
   padding: 0;
   background-color: #A4D6D7;
   text-align: center;
+
+  background: url(../img/vv.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 a {
