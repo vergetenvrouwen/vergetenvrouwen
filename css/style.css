@@ -2,7 +2,6 @@ body, html {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #A4D6D7;
   text-align: center;
 
   background: url(../img/vv2.png) no-repeat center center fixed; 
@@ -10,6 +9,10 @@ body, html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @font-face {
@@ -18,15 +21,13 @@ body, html {
 }
 
 a {
-  text-decoration: none;
-  color: black;
   font-family: Exodus, serif;
 }
 
 h1 {
   font-size: 6em;
   font-family: Exodus, serif;
-  color: white;
+  color: #fafafa;
   margin-top: 1.2em;
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
@@ -35,20 +36,15 @@ h1 {
 
 nav {
   z-index: 5;
-  margin: auto;
 }
 
 nav a {
-  display: inline-block;
-  width: 25%;
-  padding: .75em;
   margin: auto;
   color: #FAFAFA;
   font-size: 1.2em;
 
   position: relative;
   overflow: hidden;
-  z-index: 1;
   -webkit-transition: color 150ms ease-in-out;
   transition: color 150ms ease-in-out;
 
@@ -72,7 +68,7 @@ nav a:after {
 }
 
 nav a:hover:after {
-  width: 110%;
+  width: 100%;
 }
 
 ul li {
