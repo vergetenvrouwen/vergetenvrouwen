@@ -1,6 +1,5 @@
 body, html {
   width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
   background-color: #A4D6D7;
@@ -24,14 +23,14 @@ a {
 }
 
 h1 {
-  font-size: 7em;
+  font-size: 6em;
   font-family: Exodus;
   color: white;
 }
 
 nav {
   z-index: 5;
-  background-color: rgba(250, 250, 250, .5);
+  background-color: rgba(5, 5, 5, .5);
   border: none;
 }
 
@@ -50,7 +49,6 @@ ul li {
 }
 
 #pagina a {
-	font-weight: bold;
 	border-bottom: 3px solid white;
   background-color: rgba(250, 250, 250, 0.2);
 }
@@ -63,7 +61,7 @@ ul li {
 
 .content {
   margin-top: 6em;
-  animation: fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
