@@ -20,20 +20,21 @@ body, html {
 a {
   text-decoration: none;
   color: black;
-  font-family: Exodus;
+  font-family: Exodus, serif;
 }
 
 h1 {
   font-size: 6em;
-  font-family: Exodus;
+  font-family: Exodus, serif;
   color: white;
   margin-top: 1.2em;
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 nav {
   z-index: 5;
-  /*background-color: rgba(5, 5, 5, .5);
-  border: none;*/
   margin: auto;
 }
 
@@ -44,6 +45,34 @@ nav a {
   margin: auto;
   color: #FAFAFA;
   font-size: 1.2em;
+
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out;
+
+  border-bottom: 3px solid rgba(250, 250, 250, 0);
+}
+
+nav a:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  background: rgba(250, 250, 250, 0.2);
+  z-index: -1;
+  -webkit-transition: width 150ms ease-in-out;
+  transition: width 150ms ease-in-out;
+}
+
+nav a:hover:after {
+  width: 110%;
 }
 
 ul li {
@@ -51,7 +80,7 @@ ul li {
   text-align: center;
 }
 
-#pagina a {
+.pagina a {
 	border-bottom: 3px solid white;
   background-color: rgba(250, 250, 250, 0.2);
 }
@@ -67,10 +96,11 @@ ul li {
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  width: 80%;
+  width: 65%;
   background-color: rgba(250, 250, 250, 0.5);
-  padding: 1em;
+  padding: 1em 5em 1em 5em;
   margin-top: -1em;
+  margin-bottom: 1em;
 }
 
 @keyframes fadeInAnimation {
@@ -82,7 +112,7 @@ ul li {
      }
 }
 
-#download {
+.download {
     transition: all .5s ease;
     border: 3px solid #F8F7E5;
     text-transform: uppercase;
@@ -94,12 +124,12 @@ ul li {
     border-radius: .5em;
 }
 
-#download:hover {
+.download:hover {
     color: #FFFFFF;
     background-color: #ED7674;
 }
 
-#download a {
+.download a {
     display: block;
     padding: .7em .5em;
 }
