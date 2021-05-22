@@ -11,6 +11,7 @@ body {
   background-size: cover;
 }
 
+
 @font-face {
   font-family: "Exodus";
   src: url("../fonts/ExodusDisplay-Sharpen.ttf") format("truetype");
@@ -130,6 +131,12 @@ ul li {
 .download a {
     display: block;
     padding: .7em .5em;
+}
+
+@media only screen and (max-width: 375px) {
+  h1 {
+    font-size: 
+  }
 }
 
 /* Extra small devices (phones, 400px and down) */
