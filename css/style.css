@@ -27,10 +27,11 @@ h1 {
   font-size: 6em;
   font-family: Exodus, serif;
   color: #fafafa;
-  margin-top: 1.2em;
   animation: fadeInAnimation ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  width: 95%;
+  margin: 1em auto .6em auto;
 }
 
 nav {
