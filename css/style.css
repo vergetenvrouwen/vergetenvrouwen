@@ -112,15 +112,15 @@ ul li {
 }
 
 .download {
-    transition: all .5s ease;
-    border: 3px solid #F8F7E5;
-    text-transform: uppercase;
-    line-height: 1;
-    font-size: 17px;
-    background-color : #ECCCC7;
-    padding: 0;
-    outline: none;
-    border-radius: .5em;
+  transition: all .5s ease;
+  border: 3px solid #F8F7E5;
+  text-transform: uppercase;
+  line-height: 1;
+  font-size: 17px;
+  background-color : #ECCCC7;
+  padding: 0;
+  outline: none;
+  border-radius: .5em;
 }
 
 .download:hover {
@@ -131,12 +131,6 @@ ul li {
 .download a {
     display: block;
     padding: .7em .5em;
-}
-
-@media only screen and (max-width: 375px) {
-  h1 {
-    font-size: 
-  }
 }
 
 /* Extra small devices (phones, 400px and down) */
