@@ -135,7 +135,8 @@ ul li {
   line-height: 1;
   font-size: 17px;
   background-color: RGBA(183, 143, 71, 1.00);
-  padding: 0;
+  /*padding: .3em 1.2em 0.3em 1.2em;*/
+  width: 165px;
   outline: none;
 }
 
@@ -148,6 +149,10 @@ ul li {
   color: #fafafa;
   display: block;
   padding: .7em .5em;
+}
+
+.download:first-child {
+  margin-right: .8em;
 }
 
 @media only screen and (max-width: 678px) {
@@ -174,7 +179,7 @@ ul li {
 
   .content {
     width: 80%;
-    padding: 1em 0.4em 1em 0.4em;
+    padding: 1em 3em 1em 3em;
   }
 
   h1 {
@@ -186,5 +191,17 @@ ul li {
   h1 {
     font-size: 3.5em;
     margin-top: .5em;
+  }
+
+  .content {
+    width: 80%;
+    padding: 1em;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .download:first-child {
+    margin-bottom: .7em;
+    margin-right: 0;
   }
 }
