@@ -1,11 +1,15 @@
 @font-face {
   font-family: "Exodus";
+  font-style: normal;
   src: url("../fonts/ExodusDisplay-Sharpen.ttf") format("truetype");
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Exodus Bold";
   src: url("../fonts/ExodusDisplay-SharpenBold.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
