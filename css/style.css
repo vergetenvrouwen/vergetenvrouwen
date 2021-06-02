@@ -150,6 +150,10 @@ ul li {
   margin-right: .8em;
 }
 
+.partyvelde {
+  margin-top: 1em;
+}
+
 @media only screen and (max-width: 678px) {
   nav a {
     display: block;
