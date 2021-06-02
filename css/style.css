@@ -154,7 +154,7 @@ ul li {
   margin-top: 1em;
 }
 
-@media only screen and (max-width: 678px) {
+@media only screen and (max-width: 726px) {
   nav a {
     display: block;
     width: 90%;
